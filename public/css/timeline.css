@@ -1,0 +1,45 @@
+h2 {
+    font-size: 100px;
+}
+
+.TimeLine-main {
+    background-color: white;
+    margin-bottom: 30px;
+}
+.TimeLine-main p{
+    margin-bottom: 100px;
+}
+
+.Post-img {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timelinepost-profile-icon {
+    height: 50px;
+    width: 50px;
+    margin-left: 25%;
+}
+
+.TimeLine-main p{
+    text-align: center;
+}
+
+.acount_name {
+    font-size: 20px;
+}
+.TimeLine-header {
+    margin-top: 10px;
+}
+.cp_hr01 {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: darkgrey;
+    opacity: 0.4;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 80px;
+}
