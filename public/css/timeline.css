@@ -43,3 +43,13 @@ h2 {
     text-align: center;
     margin-bottom: 80px;
 }
+
+.cp_hr0101 {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: darkgrey;
+    opacity: 0.4;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}

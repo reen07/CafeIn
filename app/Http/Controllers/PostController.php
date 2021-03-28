@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use App\Like;
+use App\Comment;
 // use Auth;
 use Illuminate\Support\Facades\Auth;
 use Validator;
@@ -32,9 +33,11 @@ class PostController extends Controller
         $posts = Post::limit(10)
             ->orderBy('created_at', 'desc')
             ->get();
-            
+        
+        $comments = Comment::all();
+        
          // テンプレート「post/index.blade.php」を表示します。
-        return view('posts/timeline', ['posts' => $posts]);
+        return view('posts/timeline', ['posts' => $posts, 'comments'=> $comments]);
         
     }
 

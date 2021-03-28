@@ -176,7 +176,6 @@
                         </li>
                         <li><a href="{{ url('posts/timeline')}}" class="btn-main-nav TimeLine">TimeLine</a></li>
                         <li><a href="{{ url('posts/newcreate')}}" class="btn-main-nav NewCreate">NewCreate</a></li>
-                        <li><a href="#" class="btn-main-nav Search">Search</a></li>
                         <li><a href="#" class="btn-main-nav Profiel">EditProfiel</a></li>
                 @endguest
             </ul>

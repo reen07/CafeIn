@@ -48,3 +48,6 @@ Route::patch('/posts/update', 'PostController@update')->name('post_update');
 
 Route::get('/posts/{post_id}/likes_text','LikeController@store')->name('post_like');
 Route::get('/likes_text/{user_id}','LikeController@destroy')->name('post_unlike');
+
+Route::post('/posts/post_comment','CommentController@store')->name('post_comment');
+Route::get('/post_comment/{comment_id}','CommentController@destroy')->name('post_uncomment');
